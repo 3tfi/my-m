@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mind</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="workspace" class="workspace">
+            <button id="plusButton" class="plus-button"><i class="fas fa-plus"></i></button>
+            <div id="options" class="options hidden">
+                <button data-type="note" class="one"><i class="fas fa-sticky-note"></i></button>
+                <button data-type="todo" class="two"><i class="fas fa-check-square"></i></button>
+                <button data-type="label" class="three"><i class="fas fa-tag"></i></button>
+                <button data-type="timer" class="four"><i class="fas fa-clock"></i></button>
+                <button data-type="stopwatch" class="five"><i class="fas fa-stopwatch"></i></button>
+            </div>
+            <div id="colorPalette" class="color-palette hidden">
+                <button class="color-option" style="background-color: #ff0000;"></button>
+                <button class="color-option" style="background-color: #00ff00;"></button>
+                <button class="color-option" style="background-color: #0000ff;"></button>
+                <button class="color-option" style="background-color: #ffff00;"></button>
+                <button class="color-option" style="background-color: #ff00ff;"></button>
+                <button class="color-option" style="background-color: #00ffff;"></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
